@@ -1,5 +1,5 @@
 # ScraperBot
-This is a image scraper pwoered by selenium and written to function with google chrome and google images and will download however many images you want from a specific search term. The idea behind this scraper is to get sufficient images for deep learning and is a building block for other projects I have in mind. Some annoyances that this script may have, it uses command line arguments and searches one keyword at a time. It will download images if the site allowes it so not all images from the google images view will be gathered. Especially important for deep learning purposes is that the bot will download whatever it sees, so please curate the images. Your AI might learn some random things! This is not the fastest scraper out there, I wrote it to gather URLs from images first and then download the files if possible. This is to not over burden any websites with scraper traffic. Anyways follow the insturctions below to get scraping.
+This is a image scraper powered by selenium and written to function with google chrome and google images and will download however many images you want from a specific search term. The idea behind this scraper is to get sufficient images for deep learning and is a building block for other projects I have in mind. Some annoyances that this script may have, it uses command line arguments and searches one keyword at a time. It will download images if the site allowes it so not all images from the google images view will be gathered. Especially important for deep learning purposes is that the bot will download whatever it sees, so please curate the images. Your AI might learn some random things! This is not the fastest scraper out there, I wrote it to gather URLs from images first and then download the files if possible. This is to not over burden any websites with scraper traffic. Anyways follow the insturctions below to get scraping.
 <br>
 # Requirements
 - [Google chrome](https://www.google.com/intl/en/chrome/)
@@ -22,7 +22,7 @@ python --version
 ```
 Your output should be **python** followed by the version number. If this is correct navigate to the directory within the command prompt and install the dependendancies. 
 ```
-cd *Path\to\script\directory*
+cd Path\to\script\directory
 
 pip install -r requirements.txt
 ```
