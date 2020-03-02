@@ -7,7 +7,7 @@ This is a image scraper powered by selenium and written to function with google 
 - [Python 3](https://www.python.org/downloads/)
 
 <br>
-This bot only funcitons with chrome at the moment and thus you will need the google chrome browser. The next thing you need to know is your chrome version, this can be found by accessing the settings menu and navigating to the help menu then the about chrome menu. This will tell you which major version (the number before the first full stop) of chrome you have. Navigate to the chrome web driver downloads page and download the correct version. Finally download python three if you dont have it. 
+This bot only funcitons with chrome at the moment and thus you will need the google chrome browser. The next thing you need to know is your chrome version, this can be found by accessing the settings menu and navigating to the help menu then the about chrome menu. This will tell you which major version (the number before the first full stop) of chrome you have. Navigate to the chrome web driver downloads page and download the correct version. Finally download python 3 if you dont have it. 
 
 # Installation
 Download the repositiory from git hub or git clone it
