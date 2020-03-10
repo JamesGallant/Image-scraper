@@ -34,26 +34,20 @@ pip install -r requirements.txt
 This should be enough to create a working environment.
 
 # Usage
-To see the help menu call the script with **-h**
-```
-python scraperBot -h
-```
-There are two required arguments and one optional argument:
-```
-required:
+|Commands             |Method                                                 |Requirement |
+|---------------------|-------------------------------------------------------|------------|
+|`-h`                 |Display the help message                               |Optional    |
+|`--search`           |Keyword for the google search                          |**Required**|
+|`--min_image_count`  |Minimum number of images                               |**Required**|
+|`--out_directory`    |The output directory, default is the script directory  |Optional    |
 
---search              The keyword for the google image search. 
---min_image_count     The minimum nubmer of images to download. It might download more images
-
-Optional:
-
---out_directory       Where to save the images. If left blank it will be saved in the script directory. 
-                      The name of the directory is the same as the search term.
+To call the help menu and display the table above use the help command:
 ```
-Example usage:
+python scraperBot.py -h
 ```
-python scraperBot.py --search Python --min_image_count 10 --out_directory path/to/output/directory/Python
+Example of running the bot with the required arguments
 ```
-
-# A final note
-Don't use innocent bots for evil. 
+python scraperBot.py --search Python --min_image_count 10
+```
+# Note
+This script will take control of your computer and open your browser until it is done. Also many websites disallow scraping so not all scanned images will be downloaded. 
